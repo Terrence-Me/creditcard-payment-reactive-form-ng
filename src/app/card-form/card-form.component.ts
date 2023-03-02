@@ -36,5 +36,9 @@ export class CardFormComponent {
     console.log(event);
   }
 
+  onResetClick() {
+    this.cardForm.reset();
+  }
+
   constructor() {}
 }
