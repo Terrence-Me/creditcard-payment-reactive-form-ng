@@ -13,7 +13,7 @@ export class CardFormComponent {
     name: new FormControl<any>('', [
       Validators.required,
       Validators.minLength(3),
-      Validators.maxLength(5),
+      Validators.maxLength(50),
     ]),
 
     cardNumber: new FormControl('', [
